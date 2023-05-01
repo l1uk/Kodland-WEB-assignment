@@ -1,0 +1,47 @@
+.background{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.div_center{
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+}
+.navbar{
+    min-height: 10vh;
+    font-family: fantasy;
+}
+.navbar > a{
+    margin: auto;
+}
+.navbar > a:nth-child(1){
+    padding-left: 5em;
+}
+.carousel_item{
+    text-align: center;
+}
+.carousel_item > div > img{
+    height: auto;
+    width: 100px;
+}
+.grow_1{ flex-grow: 1; }
+
+.footer{
+    background-color: #333333;
+}
+.white{color: white;}
+button {
+padding: .375em 1.125em;
+}
+
+.button-arounder {
+font-size: 2rem;
+color: black;
+border: none;
+}
+.yellow{ background: #ffbf69; }
+.lightblue{ background: #caf3f1; }
+h1{font-size: 9em;}
+h2{font-weight: 900;}
